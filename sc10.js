@@ -1,63 +1,49 @@
 
 
 
-///////////////////////////////////CALCULATE THE PERCENTAGE AND GRADES//////////////////////////////
+///////////////////////ENTER MONTH NUMBER AND YOU'LL BE GET NUMBER OF DAYS IN THAT MONTH///////////////////////////////////
 
+let month= 22;
 
-let phyMarks=100;
-let chemMarks=100;
-let mathMarks=100;
-let compMarks=100;
-let bioMarks=50;
+switch (month) {
+    case 1:
+        console.log("31 Days")
+        break;
+    case 2:
+        console.log("28 Days")
+        break;
+    case 3:
+        console.log("31 Days")
+        break;
+    case 4:
+        console.log("30 Days")
+        break;
+    case 5:
+        console.log("31 Days")
+        break;
+    case 6:
+        console.log("30 Days")
+        break;
+    case 7:
+        console.log("30 Days")
+        break;
+    case 8:
+        console.log("31 Days")
+        break;
+    case 9:
+        console.log("30 Days")
+        break;
+    case 10:
+        console.log("29 Days")
+        break;
+    case 11:
+        console.log("30 Days")
+        break;
+    case 12:
+        console.log("31 Days")
+        break;
 
-if(phyMarks<=100 && chemMarks<=100 && mathMarks<=100 && compMarks<=100 && bioMarks<=100){
-    
-    let totalMarks= phyMarks+chemMarks+mathMarks+compMarks+bioMarks;
-let marksPercentage= totalMarks/500*100;
-
-if(marksPercentage>=90){
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'A'")
-} else if(marksPercentage>= 80){
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'B'")
-}else if(marksPercentage>=70){
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'C'")
-}else if(marksPercentage>=60){
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'D'")
-}else if(marksPercentage>=40){
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'E'")
-}else{
-    console.log(`You got ${marksPercentage}% Marks`)
-    console.log("Your Grade is 'F'")
+    default:
+        console.log("Invalid Input")
+        break;
 }
-    
-}else {
-    console.log("Inavlid Input")
-}
-
-// let totalMarks= phyMarks+chemMarks+mathMarks+compMarks+bioMarks;
-// let marksPercentage= totalMarks/500*100;
-
-// if(marksPercentage>=90){
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'A'")
-// } else if(marksPercentage>= 80){
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'B'")
-// }else if(marksPercentage>=70){
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'C'")
-// }else if(marksPercentage>=60){
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'D'")
-// }else if(marksPercentage>=40){
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'E'")
-// }else{
-//     console.log(`You got ${marksPercentage}% Marks`)
-//     console.log("Your Grade is 'F'")
-// }

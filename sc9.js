@@ -1,49 +1,38 @@
 
 
+/////////////////////////////////////WEEKNUMBER FROM    WEEKDAYS//////////////////////////////////////////
 
-//
 
-let month= 22;
+let weekNumber = 5;
 
-switch (month) {
+switch (weekNumber) {
     case 1:
-        console.log("31 Days")
-        break;
-    case 2:
-        console.log("28 Days")
-        break;
-    case 3:
-        console.log("31 Days")
-        break;
-    case 4:
-        console.log("30 Days")
-        break;
-    case 5:
-        console.log("31 Days")
-        break;
-    case 6:
-        console.log("30 Days")
-        break;
-    case 7:
-        console.log("30 Days")
-        break;
-    case 8:
-        console.log("31 Days")
-        break;
-    case 9:
-        console.log("30 Days")
-        break;
-    case 10:
-        console.log("29 Days")
-        break;
-    case 11:
-        console.log("30 Days")
-        break;
-    case 12:
-        console.log("31 Days")
+        console.log("Monday");
         break;
 
-    default:
-        console.log("Invalid Input")
+    case 2:
+        console.log("Tuesday");
         break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    case 4:
+        console.log("Thrusday");
+        break;
+
+    case 5:
+        console.log("Friday");
+        break;
+
+    case 6:
+        console.log("Saturday");
+        break;
+
+    case 7:
+        console.log("Sunday");
+        break;
+    default: console.log("Invalid Input");
+
 }

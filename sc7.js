@@ -1,11 +1,18 @@
 
 
-// ////////////////////////////////////////UPPERCASE AND LOWERCASE /////////////////////////////////////////////
 
-let alphabet="A";
+let alphabet = "l";
 
-if (alphabet.toUpperCase() === alphabet ){
-    console.log("This is Upper Case")
-}else {
-    console.log("This is Lower Case")
+switch (alphabet) {
+    case "a":
+    case "i":
+    case "o":
+    case "u":
+        console.log("This is Vowels")
+        break;
+
+    default: console.log("This is Cons")
+        break;
 }
+
+

@@ -1,38 +1,11 @@
 
 
-/////////////////////////////////////WEEKNUMBER FROM  WEEKDAYS//////////////////////////////////////////
+// ////////////////////////////////////////UPPERCASE AND LOWERCASE /////////////////////////////////////////////
 
+let alphabet="A";
 
-let weekNumber = 5;
-
-switch (weekNumber) {
-    case 1:
-        console.log("Monday");
-        break;
-
-    case 2:
-        console.log("Tuesday");
-        break;
-
-    case 3:
-        console.log("Wednesday");
-        break;
-
-    case 4:
-        console.log("Thrusday");
-        break;
-
-    case 5:
-        console.log("Friday");
-        break;
-
-    case 6:
-        console.log("Saturday");
-        break;
-
-    case 7:
-        console.log("Sunday");
-        break;
-    default: console.log("Invalid Input");
-
+if (alphabet.toUpperCase() === alphabet ){
+    console.log("This is Upper Case")
+}else {
+    console.log("This is Lower Case")
 }

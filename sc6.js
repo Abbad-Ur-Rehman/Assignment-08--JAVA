@@ -1,18 +1,12 @@
 
 
+let year=2005
 
-let alphabet = "l";
-
-switch (alphabet) {
-    case "a":
-    case "i":
-    case "o":
-    case "u":
-        console.log("This is Vowels")
-        break;
-
-    default: console.log("This is Cons")
-        break;
-}
+    
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+        console.log(year + " is a leap year");
+    } else {
+        console.log(year + " is not a leap year");
+    }
 
 
